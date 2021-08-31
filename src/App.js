@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import SliderApp from "./component/SliderApp";
 
 function App() {
   return (
     <div className="App">
-     hi
+      <h2 className="title">slider-App</h2>
+      <SliderApp />
     </div>
   );
 }
